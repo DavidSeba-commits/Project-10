@@ -40,14 +40,7 @@ public class Main {
         controller.addNewFeeItem("FEE001", "Tuition Fee 2024", "Annual tuition fee for undergraduate programs",
                 2500.00, "TUITION", "2024-ANNUAL");
 
-        controller.addNewFeeItem("FEE002", "Hostel Accommodation", "Semester hostel fee",
-                1200.00, "ACCOMMODATION", "2024-SEM1");
-
-        controller.addNewFeeItem("FEE003", "Library Fee", "Library access and resources fee",
-                150.00, "LIBRARY_FEE", "2024-SEM1");
-
-        controller.addNewFeeItem("FEE004", "Medical Insurance", "Student health insurance coverage",
-                300.00, "INSURANCE", "2024-ANNUAL");
+    
 
         // Display all available fee items
 
