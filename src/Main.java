@@ -30,6 +30,7 @@ public class Main {
         System.out.println();
         userManager.displayUser("David SEBA", true, true, true);
         userManager.displayUser("Alice Dupont", true, true, true);
+        userManager.displayUser("Charlie Brown", true, false, true);
 
 
         // Create the controller
