@@ -40,7 +40,7 @@ public class Main {
         controller.addNewFeeItem("FEE001", "Tuition Fee 2024", "Annual tuition fee for undergraduate programs",
                 2500.00, "TUITION", "2024-ANNUAL");
 
-    
+
 
         // Display all available fee items
 

@@ -4,13 +4,14 @@ public class UserInfo {
     String UserName;
     String UserRegNumber;
     String UserFacultyName;
-    String UserEmail;
+    String PhoneNumber;
 
-    public UserInfo(String userName, String userRegNumber, String userFacultyName) {
+
+    public UserInfo(String userName, String userRegNumber, String userFacultyName, String userPhoneNumber) {
         this.UserName = userName;
         this.UserRegNumber = userRegNumber;
         this.UserFacultyName = userFacultyName;
-        this.UserEmail = userName;
+        this.PhoneNumber = userPhoneNumber;
     }
 
     public String getUserName() {
@@ -25,7 +26,7 @@ public class UserInfo {
         return UserFacultyName;
     }
 
-    public String getUserEmail() {
-        return UserEmail;
+    public String getPhoneNumber() {
+        return PhoneNumber;
     }
 }
