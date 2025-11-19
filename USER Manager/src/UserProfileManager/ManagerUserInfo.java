@@ -22,17 +22,17 @@ public class ManagerUserInfo {
     }
 
     // Display a user by name with Boolean control
-    public void displayUser(String name, boolean showName, boolean showReg, boolean showFaculty) {
+    public void displayUser(String name, boolean showName, boolean showReg, boolean showFaculty, boolean showPhoneNumber) {
         UserInfo user = getUser(name);
         if (user == null) {
             System.out.println("User '" + name + "' Not Found");
             return;
         }
-        displaySingleUser(user, showName, showReg, showFaculty);
+        displaySingleUser(user, showName, showReg, showFaculty, showPhoneNumber);
     }
 
     // Private method to display a single user with Boolean control
-    private void displaySingleUser(UserInfo user, boolean showName, boolean showReg, boolean showFaculty) {
+    private void displaySingleUser(UserInfo user, boolean showName, boolean showReg, boolean showFaculty, boolean showPhoneNumber) {
         StringBuilder info = new StringBuilder();
 
         if (showName) {
@@ -57,6 +57,10 @@ public class ManagerUserInfo {
 
         if (showFaculty) {
             info.append("Faculty: ").append(user.getUserFacultyName());
+        }
+
+        if (showPhoneNumber) {
+            info.append("Phone Number: ").append(user.getPhoneNumber());
         }
 
         System.out.println(info.toString());
