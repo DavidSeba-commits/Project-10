@@ -11,9 +11,9 @@ public class Main {
 
         // Adding a few users
 
-        UserInfo user1 = new UserInfo("Alice Dupont", "24/7812/CSS-S", "Computer Science");
-        UserInfo user2 = new UserInfo("David SEBA", "24/1619/BIT-S", "Informational Technology");
-        UserInfo user3 = new UserInfo("Charlie Brown", "25/9089/BM-S", "Business Management");
+        UserInfo user1 = new UserInfo("Alice Dupont", "24/7812/CSS-S", "Computer Science", "+256 770 799 058");
+        UserInfo user2 = new UserInfo("David SEBA", "24/1619/BIT-S", "Informational Technology" "+256 770 799 058");
+        UserInfo user3 = new UserInfo("Charlie Brown", "25/9089/BM-S", "Business Management" "+256 770 799 058");
 
 
         // Adding users to the manager system
