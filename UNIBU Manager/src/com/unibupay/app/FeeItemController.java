@@ -22,5 +22,6 @@ public class FeeItemController {
     // Get all active fee items for processing
     public void processFeeItems() {
         System.out.println("\nProcessing " + feeItemService.getActiveFeeItemCount() + " active fee items...");
+        // Here you could integrate with payment processing
     }
 }
